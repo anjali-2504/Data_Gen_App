@@ -16,5 +16,8 @@ where
 
 All these paths are relative paths wrt to the current working directory.
 
+`TEMPLATES`  folder gets created if it is not already present in the current directory while you `Add Template`.
+However, during automation, you must provide with the `TEMPLATES` folder's relative location.
+
 
 
