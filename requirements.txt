@@ -1,0 +1,14 @@
+Pillow
+json
+tkinter
+glob
+argparse
+xml.etree.ElementTree
+os
+gdown
+Levenshtein
+cv2
+numpy
+matplotlib
+scipy
+imutils
