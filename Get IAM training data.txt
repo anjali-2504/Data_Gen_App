@@ -1,0 +1,26 @@
+Get IAM dataset
+1. Register at: http://www.fki.inf.unibe.ch/databases/iam-handwriting-database
+2. Download words.tgz 
+3. Download words.txt
+4. Put words.txt into this dir
+5. Create subdir words
+6. Put content (directories a01, a02, ...) of words.tgz into subdir words
+7. Run checkDirs.py for a rough check on the files
+
+sudo python3 main.py --data_dir /media/idiserver/5e522cb4-c489-43d6-8b7a-9838c76d37c3/HTR/Offline-Handwriting-Recognition-with-TensorFlow-master/SimpleHTR-master/data/new_test_data --test_dir /media/idiserver/5e522cb4-c489-43d6-8b7a-9838c76d37c3/HTR/Server/arnab/pytorch-CycleGAN-and-pix2pix/datasets/IAM_STW2Clean/partial_slant/STW2clean_results/STW2Clean_pix_Mixed_l1_SSIM/test_latest/images --test_words_dir /media/idiserver/5e522cb4-c489-43d6-8b7a-9838c76d37c3/HTR/Server/arnab/pytorch-CycleGAN-and-pix2pix/datasets/IAM_STW2Clean/partial_slant/IAM_Words_test_Strike2Clean_Partial_Slanted_text.txt  
+
+
+Check if dir structure looks like this:
+data
+--test.png
+--words.txt
+--words
+----a01
+------a01-000u
+--------a01-000u-00-00.png
+--------...
+------...
+----a02
+----...
+	
+
